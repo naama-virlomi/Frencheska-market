@@ -1,0 +1,98 @@
+:root {
+    box-sizing: border-box;
+    --logo-fg : rgb(121,109,97);
+    --logo-bg : white;
+
+    direction: rtl;
+}
+
+body {
+    direction: rtl;
+}
+
+
+header {
+    width: 100vw;
+    display: flex;
+    background-color: white;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    flex-direction: row;    
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    
+}
+
+nav a,nav a:visited {
+    color: rgb(121,109,97);
+    text-decoration: none;
+}
+
+nav a{
+    font-size: 2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+
+}
+
+
+footer {
+    width : 100%;
+    background-color: var(--logo-fg);
+    color: var(--logo-bg);
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    padding: 20px;
+  }
+
+.top-picture {
+    display: flex;
+}
+
+.top-picture img {
+    margin: 0 auto;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+
+.personal {
+    margin-top:20px;
+    display: flex;
+}
+
+.personal-text {
+    margin: 0 auto;
+    width :400px;
+    font-size: 1.5rem;
+}
+
+
+.some-products {
+    display: flex;
+    justify-content: space-between;
+    margin : 20px auto ;
+}
+
+.small-product {
+    width: 200px ;
+    height: 200px;
+    background-color: greenyellow;
+
+}
