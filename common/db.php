@@ -26,11 +26,11 @@ function db_connect()
     return $pdo;
 }
 
-$pdo=db_connect();
+// $pdo=db_connect();
 
-$stmt = $pdo->query('SELECT * FROM products ');
+// $stmt = $pdo->query('SELECT * FROM products ');
 
-while ($row = $stmt->fetch())
-{
-    echo_product("md",$row['name'],$row['flags'],$row['imgkey']);
-}
+// while ($row = $stmt->fetch())
+// {
+//     echo_product("md",$row['name'],$row['flags'],$row['imgkey']);
+// }

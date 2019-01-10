@@ -1,6 +1,10 @@
 <?php
     $page_name = "FRENCHESKA";
+
+    include ("../common/db.php");
+
 ?>
+
 
 
 <!DOCTYPE html>
@@ -25,19 +29,22 @@
         המומלצים שלנו
     </h1>
         <div class="some-products">
-            <div class="small-product">
+        <?php
+        $pdo=db_connect();
 
-            </div>
-            <div class="small-product"></div>
-            <div class="small-product"></div>
-            <div class="small-product"></div>
+        $stmt = $pdo->query('SELECT * FROM products WHERE `recomnded` = 1');
+
+        while ($row = $stmt->fetch())
+        {
+            echo_product("md",$row['name'],$row['flags'],$row['imgkey']);
+        }
+        ?>
         </div>
-            
-
-
     </div>
 
-    
+
+
+    <?php include ("../components/page_head.php") ?>
 
     <script src="./javascript/main.js"></script>
 </body>
