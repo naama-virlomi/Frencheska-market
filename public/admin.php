@@ -35,5 +35,8 @@ document.getElementById("upload_widget").addEventListener("click", function(){
 
 <?php include ("../components/page_footer.php") ?>
 
+
+
+
 </body>
 </html>

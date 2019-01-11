@@ -32,5 +32,5 @@ function db_connect()
 
 // while ($row = $stmt->fetch())
 // {
-//     echo_product("md",$row['name'],$row['flags'],$row['imgkey']);
+//     echo_product("medium",$row);
 // }

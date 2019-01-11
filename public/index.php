@@ -36,7 +36,7 @@
 
         while ($row = $stmt->fetch())
         {
-            echo_product("md",$row['name'],$row['flags'],$row['imgkey']);
+            echo_product("small",$row);
         }
         ?>
         </div>

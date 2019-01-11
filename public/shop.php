@@ -18,11 +18,11 @@
         <?php
         $pdo=db_connect();
 
-        $stmt = $pdo->query('SELECT * FROM products WHERE `recomnded` = 1');
+        $stmt = $pdo->query('SELECT * FROM products ');
 
         while ($row = $stmt->fetch())
         {
-            echo_product("md",$row['name'],$row['flags'],$row['imgkey']);
+            echo_product("medium",$row);
         }
         ?>
     </div>
