@@ -4,8 +4,9 @@
     include ("../common/db.php");
 
 
-    if (!is_int($_GET["product"]))
-        throw new Exception("SQL Ijection alert");
+    // if (!is_in($_GET["product"])){
+    //     throw new Exception("SQL Ijection alert");
+    // }
 
     $pdo=db_connect();
 

@@ -10,6 +10,11 @@ body {
     direction: rtl;
 }
 
+a ,a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
 
 header {
     width: 100vw;
@@ -29,7 +34,7 @@ nav {
 
 nav a,nav a:visited {
     color: rgb(121,109,97);
-    text-decoration: none;
+    
 }
 
 nav a{
