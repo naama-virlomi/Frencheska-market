@@ -19,8 +19,12 @@
         <div class="personal">
             
             <div class="personal-text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. At asperiores necessitatibus minima qui error sequi nobis dignissimos unde. Quasi cumque repudiandae sed provident asperiores tenetur vero enim sequi. Magnam, nisi.
-            </div>
+            אני אפרת, תושבת ניר עקיבא ובשלנית מקצועית במשרה מלאה. 
+עד לפני שנתיים עבדתי כשכירה בחברת בנייה והייתי מבשלת לחבריי הקרובים, עד שדפקה על דלתי הזדמנות של פעם בחיים. 
+הופעתי בתכנית "בואו לאכול איתי" ומאז אני בשלנית במשרה מלאה.
+מה שהתחיל עם חמישה ממרחים שאותם חילקתי בין חברים הפך אט-אט לדוכן בשוק איכרים בעיר באר שבע. משם התפתח העסק לדוכן בקניון גראנד קניון באר שבע ומכירה במסעדת "פיין גורמה" הידועה. 
+כיום אני מכינה 400 צנצנות ממרחים בשבוע, במטבח ביתי שמוקדש רק עבור זה. כל צנצנת ממרח שאני מכינה היא יצירת האמנות האישית שלי שנעשית באהבה רבה.
+        </div>
             <img src="https://res.cloudinary.com/frencheska/image/upload/w_400/tadmit.jpg">
 
             
