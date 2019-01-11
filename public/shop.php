@@ -2,14 +2,19 @@
     $page_name = "FRENCHESKA";
 
     include ("../common/db.php");
-
+    
 ?>
+
 
 
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include ( "../components/page_head.php"); ?>
+
+<?php 
+$page_name = "SHOP";
+$links = '<link rel="stylesheet" href="./styles/shop.css">';
+include ( "../components/page_head.php"); ?>
 <body>
 <?php include ( "../components/page_header.php"); ?> 
 <div>
