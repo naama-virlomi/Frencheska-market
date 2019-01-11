@@ -1,0 +1,75 @@
+/****************************************/
+/* use this css to do dialog use this html:
+    <input type="checkbox" id="show-modal" class="modal-check" />
+    <div class="modal">
+      <!-- the overlay will enable to close the dialog by pressing outside -->
+      <label for="show-modal" class="overlay"></label>
+      <!-- the dailog window it self -->   
+      <div class="modal-content">
+        <!--  put the dailog contant hear -->
+        <!--  label.close is nessery for closing but you can change the contant -->
+        <label class="close" for="show-modal">&times;</label>
+        this is a CSS only modal dialog
+      </div>
+    </div>
+*/
+
+/* modal is the box that holds the hole screenn */
+.modal {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+    /* only nedded on grid */
+    grid-column: 1/-1;
+    grid-row: 1/-1;
+
+    /* can be change or overide */
+    background-color: rgba(0, 0, 0, 0.5);
+}
+ /* invisible check box */
+#show-modal {
+    position: absolute;
+    top :-1000px;
+    visibility: hidden;
+}
+/* invisible check box bind modal */
+#show-modal:checked+.modal {
+    display: block;
+}
+/* active modal backround catch all events*/
+#show-modal:checked+.modal .overlay {
+    pointer-events: all;
+    z-index: 200;
+}
+/* background to be full size and to catch no event when not activatr */ 
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.close {
+    font-size: 2rem;
+}
+
+.close:hover {
+    color: red;
+}
+
+.modal-content {
+    width: 60%;
+    height: 70%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+    z-index: 1000;
+    margin: 0 auto;
+    border: 1px solid red;
+    background-color: aliceblue;
+}
