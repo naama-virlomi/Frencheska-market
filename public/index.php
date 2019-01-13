@@ -47,7 +47,8 @@
     </div>
 
     <?php include ("../components/page_head.php") ?>
-
+    <?php include ("../components/page_modal.php") ?>
+    <script src="javascript/product.js"> </script>
     <script src="./javascript/stickyscroll.js"></script>
 </body>
 </html>

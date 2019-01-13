@@ -10,5 +10,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title> <?=$page_name?></title>
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/modal.css">
     <?=isset($links)?$links:""?>
 </head>
