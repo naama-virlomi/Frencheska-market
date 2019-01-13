@@ -46,10 +46,8 @@
         </div>
     </div>
 
-
-
     <?php include ("../components/page_head.php") ?>
 
-    <script src="./javascript/main.js"></script>
+    <script src="./javascript/stickyscroll.js"></script>
 </body>
 </html>
