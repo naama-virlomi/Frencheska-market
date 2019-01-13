@@ -6,8 +6,11 @@
     direction: rtl;
 }
 
-body {
+body,html {
     direction: rtl;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 a ,a:visited {
@@ -17,9 +20,11 @@ a ,a:visited {
 
 
 header {
-    width: 100vw;
+    width: 98vw;
     display: flex;
     background-color: white;
+    position: relative;
+    top :0;
 }
 
 nav {
@@ -29,7 +34,8 @@ nav {
     align-items: center;
     justify-content: space-between;
     margin: auto;
-    
+    overflow: visible;
+    height: 150px;
 }
 
 nav a,nav a:visited {
@@ -84,7 +90,7 @@ footer {
   }
   
   .sticky + .content {
-    padding-top: 102px;
+    margin-top: 102px;
   }
 
 
@@ -116,4 +122,22 @@ footer {
     margin : 20px auto; 
     display: flex;
     justify-content: space-between;
+}
+
+.logo {
+    width: 160px;
+    height: 180px;
+    border-radius: 50%; 
+    background-color: white;
+    
+    display: flex;
+    align-self: flex-end;
+}
+
+.logo img {
+    margin: auto;
+}
+
+.sticky .logo {
+    height: auto;
 }
