@@ -5,10 +5,10 @@ include ("../components/c_product.php");
 function db_connect()
 {
 
-    $host = '127.0.0.1';
+    $host = 'naamadb.cf9x9szqollz.us-east-2.rds.amazonaws.com';
     $db   = 'frencheska';
-    $user = 'root';
-    $pass = '';
+    $user = 'naamaroot';
+    $pass = 'dbna0544';
     $charset = 'utf8mb4';
 
     $dsn = "mysql:host=$host;dbname=$db;charset=$charset";
