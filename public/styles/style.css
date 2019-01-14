@@ -117,13 +117,6 @@ footer {
 }
 
 
-.product-content {
-    width : 60%;
-    margin : 20px auto; 
-    display: flex;
-    justify-content: space-between;
-}
-
 .logo {
     width: 160px;
     height: 180px;
@@ -140,4 +133,32 @@ footer {
 
 .sticky .logo {
     height: auto;
+}
+
+
+
+.product-modal-content {
+    width : 90%;
+    margin : 20px auto; 
+    display: flex;
+    height: 100%;
+    /* justify-content: space-between; */
+}
+
+.product-modal-detailes {
+    /* margin-inline-start : 20px ;  */
+    margin-right: 20px;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.close_modal {
+    font-size: 2rem;
+    position: absolute;
+    left : 0;
+    top :-4px;
+}
+
+.close_modal:hover {
+    color: red; 
 }

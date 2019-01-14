@@ -20,11 +20,12 @@
 
 
 <div>
-    <div class="product-content" >
-                <img class="product-page-img";
+    <label for="show-modal" class="close_modal">&times;</label>
+    <div class="product-modal-content" >
+                <img class="product-modal-img";
                     src="https://res.cloudinary.com/frencheska/image/upload/ar_1:1,c_fill,g_auto,e_art:hokusai/w_300/<?=$product['imgkey']?>"
                 >
-                <div class="product-page-detailes">
+                <div class="product-modal-detailes">
                     <div>
                     <h1> <?=$product['name']?> </h1>
                     </div>
